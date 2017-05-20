@@ -1,0 +1,149 @@
+<style>
+    .img-container > .img-small {
+        max-width: 100%;
+        max-height: 250px;
+    }
+
+    .img-container > .img-large {
+        max-width: 100%;
+        max-height: 500px;
+    }
+</style>
+
+<md-dialog flex="100"
+           flex-gt-sm="70">
+    <md-card style="margin: 0">
+        <div style="position: relative">
+            <md-toolbar class="md-tall"
+                        layout="column"
+                        layout-align="end start"
+                        md-whiteframe="4"
+                        layout-padding>
+                <span class="md-headline">{{project.name}}</span>
+            </md-toolbar>
+
+            <md-button class="md-fab"
+                       ng-click="hide()"
+                       style="position: absolute; right: 24px; bottom: -24px">
+                <md-icon md-svg-src="arrow-compress"></md-icon>
+            </md-button>
+        </div>
+
+        <md-content>
+            <md-tabs md-border-bottom
+                     md-dynamic-height
+                     layout-fill>
+                <md-tab label="Description">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">{{project.name}}</h1>
+                        <p>{{project.description}}</p>
+                    </md-content>
+                </md-tab>
+                <md-tab label="Pictures">
+                    <div class="md-padding"
+                         layout="row"
+                         layout-align="space-between start"
+                         flex="100">
+                        <div style="position:relative; min-height: 800px; min-width: 250px">
+                            <img ng-src="img/frame/nexus-6p-portrait.png"
+                                 style="position:absolute;"/>
+                            <img ng-src="{{src}}"
+                                 style="position: absolute; z-index: 2; min-height: 383px; max-width: 215px; top: 55px; left: 13px;"/>
+                        </div>
+
+                        <md-content layout="row"
+                                    layout-align="space-between center"
+                                    layout-wrap
+                                    flex>
+                            <div class="img-container"
+                                 flex="25"
+                                 layout="row"
+                                 layout-align="center center"
+                                 style="margin: 8px; cursor: pointer; outline: 0"
+                                 ng-repeat="image in project.images"
+                                 ng-init="height=4"
+                                 ng-mouseenter="height=8"
+                                 ng-mouseleave="height=4"
+                                 ng-click="setSrc(image.src)">
+                                <img ng-src="{{image.src}}"
+                                     ng-class="{'img-large': flex==100, 'img-small': flex==33}"
+                                     md-whiteframe="{{height}}"/>
+                            </div>
+                        </md-content>
+                    </div>
+                </md-tab>
+                <md-tab label="Technologies">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">Technologies</h1>
+                        <p>Stack of technologies I'm using</p>
+
+                        <md-list flex>
+                            <md-list-item class="md-2-line"
+                                          ng-click="null"
+                                          ng-repeat="tech in project.technologies">
+                                <div class="md-list-item-text" layout="column">
+                                    <h3>{{tech.name}}</h3>
+                                    <p>{{tech.description}}</p>
+                                </div>
+                            </md-list-item>
+                        </md-list>
+                    </md-content>
+                </md-tab>
+                <md-tab label="Patterns">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">Patterns</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis
+                            ante
+                            augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat
+                            aliquam cursus. In sodales pretium ultrices. Maecenas lectus est,
+                            sollicitudin consectetur felis nec, feugiat ultricies mi. Aliquam erat
+                            volutpat. Nam placerat, tortor in ultrices porttitor, orci enim rutrum
+                            enim,
+                            vel tempor sapien arcu a tellus. Vivamus convallis sodales ante varius
+                            gravida. Curabitur a purus vel augue ultrices ultricies id a nisl.
+                            Nullam
+                            malesuada consequat diam, a facilisis tortor volutpat et. Sed urna
+                            dolor,
+                            aliquet vitae posuere vulputate, euismod ac lorem. Sed felis risus,
+                            pulvinar
+                            at interdum quis, vehicula sed odio. Phasellus in enim venenatis,
+                            iaculis
+                            tortor eu, bibendum ante. Donec ac tellus dictum neque volutpat blandit.
+                            Praesent efficitur faucibus risus, ac auctor purus porttitor vitae.
+                            Phasellus ornare dui nec orci posuere, nec luctus mauris semper.</p>
+                        <p>Morbi viverra, ante vel aliquet tincidunt, leo dolor pharetra quam, at
+                            semper
+                            massa orci nec magna. Donec posuere nec sapien sed laoreet. Etiam cursus
+                            nunc in condimentum facilisis. Etiam in tempor tortor. Vivamus faucibus
+                            egestas enim, at convallis diam pulvinar vel. Cras ac orci eget nisi
+                            maximus
+                            cursus. Nunc urna libero, viverra sit amet nisl at, hendrerit tempor
+                            turpis.
+                            Maecenas facilisis convallis mi vel tempor. Nullam vitae nunc leo. Cras
+                            sed
+                            nisl consectetur, rhoncus sapien sit amet, tempus sapien.</p>
+                        <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum
+                            tellus.
+                            Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus
+                            quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum
+                            nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula
+                            diam,
+                            congue eu enim scelerisque, finibus commodo lectus.</p>
+                    </md-content>
+                </md-tab>
+                <md-tab label="Libraries">
+                    <md-content class="md-padding">
+                        <h1 class="md-display-2">Libraries & Frameworks</h1>
+                        <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum
+                            tellus.
+                            Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus
+                            quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum
+                            nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula
+                            diam,
+                            congue eu enim scelerisque, finibus commodo lectus.</p>
+                    </md-content>
+                </md-tab>
+            </md-tabs>
+        </md-content>
+    </md-card>
+</md-dialog>

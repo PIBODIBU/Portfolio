@@ -1,0 +1,28 @@
+<div id="my_projects"
+     ng-controller="ProjectListController as ctrl">
+    <md-progress-linear md-mode="query" ng-show="!isDataLoaded"></md-progress-linear>
+    <div layout="row"
+         flex
+         layout-align="center start"
+         layout-wrap>
+        <div ng-repeat="project in projects"
+             flex="100"
+             flex-gt-xs="50">
+            <md-card>
+                <img ng-src="{{project.cover}}"
+                     class="md-card-image">
+                <md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">{{project.name}}</span>
+                    </md-card-title-text>
+                </md-card-title>
+                <md-card-content>
+                    <p>{{project.description}}</p>
+                </md-card-content>
+                <md-card-actions layout="row" layout-align="end center">
+                    <md-button ng-click="openDetailsDialog($event, project)">Details</md-button>
+                </md-card-actions>
+            </md-card>
+        </div>
+    </div>
+</div>

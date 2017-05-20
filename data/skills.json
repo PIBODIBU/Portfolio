@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Android",
+    "name_full": "Android Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      },
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      },
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "Java",
+    "name_full": "Plain Java code",
+    "description": "Java description",
+    "cover": "img/technologies/java.jpg",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "Java EE",
+    "name_full": "Java Enterprise Edition",
+    "description": "Java EE description",
+    "cover": "img/technologies/java_ee.jpg",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "PHP",
+    "name_full": "PHP Development",
+    "description": "PHP description",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "PHP",
+    "name_full": "PHP Development",
+    "description": "PHP description",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "PHP",
+    "name_full": "PHP Development",
+    "description": "PHP description",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "PHP",
+    "name_full": "PHP Development",
+    "description": "PHP description",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "PHP",
+    "name_full": "PHP Development",
+    "description": "PHP description",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "PHP",
+    "name_full": "PHP Development",
+    "description": "PHP description",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "PHP",
+    "name_full": "PHP Development",
+    "description": "PHP description",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  },
+  {
+    "name": "PHP",
+    "name_full": "PHP Development",
+    "description": "PHP description",
+    "cover": "img/technologies/android.png",
+    "technologies": [
+      {
+        "name": "Dependency Injection",
+        "description": "DI description"
+      }
+    ]
+  }
+]
