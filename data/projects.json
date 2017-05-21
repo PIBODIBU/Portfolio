@@ -5,16 +5,7 @@
     "cover": "img/nau_guide_cover.png",
     "images": [
       {
-        "src": "img/screenshot/hide_my_file_screen_1-no_frame.png"
-      },
-      {
-        "src": "img/screenshot/hide_my_file_screen_2-no_frame.png"
-      },
-      {
-        "src": "img/screenshot/hide_my_file_screen_1-no_frame.png"
-      },
-      {
-        "src": "img/screenshot/hide_my_file_screen_1-no_frame.png"
+        "src": "img/screenshot/nau_guide_1.png"
       }
     ]
   },
@@ -24,25 +15,30 @@
     "cover": "img/geeky_chat_cover.png"
   },
   {
-    "num": 2,
+    "name": "Hide My File",
+    "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
+    "cover": "img/nau_guide.png",
+    "images": [
+      {
+        "src": "img/screenshot/hide_my_file_screen_1.png"
+      },
+      {
+        "src": "img/screenshot/hide_my_file_screen_2.png"
+      },
+      {
+        "src": "img/screenshot/hide_my_file_screen_3.png"
+      },
+      {
+        "src": "img/screenshot/hide_my_file_screen_4.png"
+      }
+    ]
+  },
+  {
     "name": "NAU Guide",
     "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
     "cover": "img/nau_guide.png"
   },
   {
-    "num": 2,
-    "name": "NAU Guide",
-    "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
-    "cover": "img/nau_guide.png"
-  },
-  {
-    "num": 2,
-    "name": "NAU Guide",
-    "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
-    "cover": "img/nau_guide.png"
-  },
-  {
-    "num": 2,
     "name": "NAU Guide",
     "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
     "cover": "img/nau_guide.png"

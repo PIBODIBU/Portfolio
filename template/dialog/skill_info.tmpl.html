@@ -89,13 +89,18 @@
                 <md-tab label="Libraries">
                     <md-content class="md-padding">
                         <h1 class="md-display-2">Libraries & Frameworks</h1>
-                        <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum
-                            tellus.
-                            Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus
-                            quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum
-                            nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula
-                            diam,
-                            congue eu enim scelerisque, finibus commodo lectus.</p>
+                        <p>Libraries & Frameworks which I'm using in development</p>
+
+                        <md-list flex>
+                            <md-list-item class="md-2-line"
+                                          ng-click="null"
+                                          ng-repeat="library in skill.libraries">
+                                <div class="md-list-item-text" layout="column">
+                                    <h3>{{library.name}}</h3>
+                                    <p>{{library.description}}</p>
+                                </div>
+                            </md-list-item>
+                        </md-list>
                     </md-content>
                 </md-tab>
             </md-tabs>

@@ -19,11 +19,6 @@ app.config(function ($mdIconProvider, $mdThemingProvider, $stateProvider, $urlRo
         templateUrl: 'template/info.tmpl.html'
     });
 
-    $stateProvider.state('resizer', {
-        url: '/resizer',
-        templateUrl: 'template/page4.tmpl.html'
-    });
-
     $urlRouterProvider.otherwise("/skills");
 
     $mdIconProvider.defaultIconSet('/assets/icons/mdi.svg');
