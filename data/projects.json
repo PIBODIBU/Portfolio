@@ -3,44 +3,121 @@
     "name": "NAU Guide",
     "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
     "cover": "img/nau_guide_cover.png",
+    "type": "android",
     "images": [
       {
-        "src": "img/screenshot/nau_guide_1.png"
+        "src": "img/screenshot/NauGuide/1.png"
+      },
+      {
+        "src": "img/screenshot/NauGuide/2.png"
+      },
+      {
+        "src": "img/screenshot/NauGuide/3.png"
+      },
+      {
+        "src": "img/screenshot/NauGuide/4.png"
       }
     ]
   },
   {
     "name": "Geeky chat",
     "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
-    "cover": "img/geeky_chat_cover.png"
-  },
-  {
-    "name": "Hide My File",
-    "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
-    "cover": "img/nau_guide.png",
+    "cover": "img/screenshot/GeekyChat/cover.png",
+    "type": "android",
     "images": [
       {
-        "src": "img/screenshot/hide_my_file_screen_1.png"
+        "src": "img/screenshot/GeekyChat/1.png"
       },
       {
-        "src": "img/screenshot/hide_my_file_screen_2.png"
+        "src": "img/screenshot/GeekyChat/2.png"
       },
       {
-        "src": "img/screenshot/hide_my_file_screen_3.png"
+        "src": "img/screenshot/GeekyChat/3.png"
       },
       {
-        "src": "img/screenshot/hide_my_file_screen_4.png"
+        "src": "img/screenshot/GeekyChat/4.png"
+      },
+      {
+        "src": "img/screenshot/GeekyChat/5.png"
+      },
+      {
+        "src": "img/screenshot/GeekyChat/6.png"
       }
     ]
   },
   {
-    "name": "NAU Guide",
+    "name": "Farmatica Android",
     "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
-    "cover": "img/nau_guide.png"
+    "cover": "img/screenshot/Farmatica-Android/cover.png",
+    "type": "android",
+    "images": [
+      {
+        "src": "img/screenshot/Farmatica-Android/1.png"
+      },
+      {
+        "src": "img/screenshot/Farmatica-Android/2.png"
+      },
+      {
+        "src": "img/screenshot/Farmatica-Android/3.png"
+      },
+      {
+        "src": "img/screenshot/Farmatica-Android/4.png"
+      },
+      {
+        "src": "img/screenshot/Farmatica-Android/5.png"
+      },
+      {
+        "src": "img/screenshot/Farmatica-Android/6.png"
+      }
+    ]
   },
   {
-    "name": "NAU Guide",
+    "name": "Farmatica Web",
     "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
-    "cover": "img/nau_guide.png"
+    "cover": "img/screenshot/Farmatica-Web/cover.png",
+    "type": "web",
+    "images": [
+      {
+        "src": "img/screenshot/Farmatica-Web/1.png"
+      },
+      {
+        "src": "img/screenshot/Farmatica-Web/2.png"
+      },
+      {
+        "src": "img/screenshot/Farmatica-Web/3.png"
+      },
+      {
+        "src": "img/screenshot/Farmatica-Web/4.png"
+      }
+    ]
+  },
+  {
+    "name": "Hide My File",
+    "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
+    "cover": "img/screenshot/HideMyFile/cover.png",
+    "type": "android",
+    "images": [
+      {
+        "src": "img/screenshot/HideMyFile/1.png"
+      },
+      {
+        "src": "img/screenshot/HideMyFile/2.png"
+      },
+      {
+        "src": "img/screenshot/HideMyFile/3.png"
+      },
+      {
+        "src": "img/screenshot/HideMyFile/4.png"
+      },
+      {
+        "src": "img/screenshot/HideMyFile/5.png"
+      },
+      {
+        "src": "img/screenshot/HideMyFile/6.png"
+      },
+      {
+        "src": "img/screenshot/HideMyFile/7.png"
+      }
+    ]
   }
 ]

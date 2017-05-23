@@ -40,7 +40,8 @@
                     </md-content>
                 </md-tab>
                 <md-tab label="Pictures">
-                    <div class="md-padding"
+                    <div ng-if="project.type == 'android'"
+                         class="md-padding"
                          layout="row"
                          layout-align="space-between start"
                          flex="100">
@@ -52,7 +53,7 @@
                         </div>
 
                         <md-content layout="row"
-                                    layout-align="start center"
+                                    layout-align="space-between center"
                                     layout-wrap
                                     flex>
                             <div class="img-container"
@@ -71,6 +72,28 @@
                             </div>
                         </md-content>
                     </div>
+
+                    <md-content ng-if="project.type == 'web'"
+                                class="md-padding"
+                                style="padding-bottom:60px;"
+                                layout-align="space-between center"
+                                layout-wrap
+                                layout="row"
+                                flex>
+                        <div class="img-container"
+                             flex="{{flex}}"
+                             layout="row"
+                             layout-align="center center"
+                             style="padding: 8px; cursor: pointer; outline: 0"
+                             ng-repeat="image in project.images"
+                             ng-init="height=4; flex=50"
+                             ng-mouseenter="height=8"
+                             ng-mouseleave="height=4"
+                             ng-click="flex==100?flex=50:flex=100">
+                            <img ng-src="{{image.src}}"
+                                 md-whiteframe="{{height}}"/>
+                        </div>
+                    </md-content>
                 </md-tab>
             </md-tabs>
         </md-content>
