@@ -229,5 +229,34 @@
         "src": "img/screenshot/NAUTests/8.png"
       }
     ]
+  },
+  {
+    "name": "Secure Server",
+    "description": "The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...",
+    "cover": "img/screenshot/SecureServer/cover.png",
+    "type": "android",
+    "images": [
+      {
+        "src": "img/screenshot/SecureServer/1.jpg"
+      },
+      {
+        "src": "img/screenshot/SecureServer/2.jpg"
+      },
+      {
+        "src": "img/screenshot/SecureServer/3.jpg"
+      },
+      {
+        "src": "img/screenshot/SecureServer/4.jpg"
+      },
+      {
+        "src": "img/screenshot/SecureServer/5.jpg"
+      },
+      {
+        "src": "img/screenshot/SecureServer/6.jpg"
+      },
+      {
+        "src": "img/screenshot/SecureServer/7.jpg"
+      }
+    ]
   }
 ]
