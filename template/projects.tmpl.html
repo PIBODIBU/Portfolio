@@ -5,7 +5,7 @@
          flex
          layout-align="center start"
          layout-wrap>
-        <div ng-repeat="project in projects"
+        <div ng-repeat="project in projects | orderBy:'name'"
              flex="100"
              flex-gt-xs="50">
             <md-card>
