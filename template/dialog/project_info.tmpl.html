@@ -39,13 +39,14 @@
                         <p>{{project.description}}</p>
                     </md-content>
                 </md-tab>
-                <md-tab label="Pictures">
+                <md-tab label="Pictures" style="min-height: 489px">
                     <div ng-if="project.type == 'android'"
                          class="md-padding"
                          layout="row"
+                         layout-xs="column"
                          layout-align="space-between start"
                          flex="100">
-                        <div style="position:relative; min-height: 800px; min-width: 250px">
+                        <div style="position:relative; min-height: 489px; min-width: 250px; padding-bottom:48px;">
                             <img ng-src="img/frame/nexus-6p-portrait.png"
                                  style="position:absolute;"/>
                             <img ng-src="{{src}}"
@@ -55,19 +56,22 @@
                         <md-content layout="row"
                                     layout-align="space-between center"
                                     layout-wrap
+                                    style="padding-bottom:60px;"
+                                    layout-padding
                                     flex>
                             <div class="img-container"
-                                 flex="25"
+                                 flex-gt-md="20"
+                                 flex-xl="15"
+                                 flex="33"
                                  layout="row"
-                                 layout-align="center center"
-                                 style="margin: 8px; cursor: pointer; outline: 0"
+                                 layout-align=" center center"
+                                 style="cursor: pointer; outline: 0"
                                  ng-repeat="image in project.images"
                                  ng-init="height=4"
                                  ng-mouseenter="height=8"
                                  ng-mouseleave="height=4"
                                  ng-click="setSrc(image.src)">
                                 <img ng-src="{{image.src}}"
-                                     ng-class="{'img-large': flex==100, 'img-small': flex==33}"
                                      md-whiteframe="{{height}}"/>
                             </div>
                         </md-content>
