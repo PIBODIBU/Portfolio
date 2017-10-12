@@ -206,7 +206,7 @@
             },
             {
                 "icon": "email",
-                "value": "cup.cake@inbox.ru",
+                "value": "romeo97934@gmail.com",
                 "description": "Email"
             },
             {
@@ -236,6 +236,8 @@
             $scope.screenIsSmall = !small;
         });
 
+        $scope.resumeUrl = "http://nauguide.esy.es/data/resume.pdf";
+
         $scope.info = [
             {
                 "value": "Europe, Ukraine, Kiev",
@@ -243,7 +245,7 @@
                 "icon": "map-marker"
             },
             {
-                "value": "23 y.o",
+                "value": "20 y.o",
                 "description": "Age",
                 "icon": "account"
             },
@@ -344,8 +346,20 @@
          flex-md="25"
          ng-show="!screenIsSmall"
          ng-controller="MainCardInfoController as ctrl">
+        <!--CV-->
         <md-card md-theme="dark"
-                 style="margin: 0"
+                 style="margin: 8px 0 0 0"
+                 md-whiteframe="16">
+            <md-card-title md-whiteframe="2">
+                <md-card-title-text>
+                    <md-button ng-href="{{resumeUrl}}" style="font-size: 18px">Download CV</md-button>
+                </md-card-title-text>
+            </md-card-title>
+        </md-card>
+
+        <!--Summary-->
+        <md-card md-theme="dark"
+                 style="margin: 8px 0 0 0"
                  md-whiteframe="16">
             <md-card-title md-whiteframe="2">
                 <md-card-title-text>
@@ -362,6 +376,8 @@
                 </md-list-item>
             </md-list>
         </md-card>
+
+        <!--Contacts-->
         <md-card md-theme="dark"
                  style="margin: 8px 0 0 0"
                  md-whiteframe="16">
